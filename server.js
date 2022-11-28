@@ -6,8 +6,8 @@ import cors from 'cors';
 import morgan from 'morgan';
 
 // I M P O R T:  R O U T E S
-import listRouter from './routes/list.js'
-import registerRouter from './routes/register.js'
+import listRouter from './routes/list.js';
+import registerRouter from './routes/register.js';
 
 // C O N N E C T   W I T H   M O N G O O S E  D B
 const DB_CONNECTION_STRING =  process.env.MONGO_DB_CONNECTION_STRING
